@@ -7,7 +7,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const app = express();
-const port = 3000;
+const port = 2000;
 
 const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });
